@@ -1,7 +1,0 @@
-{
-    "description": "Build and test a Java project with Apache Maven.",
-    "name": "Java with Maven",
-    "author": "Michael Kloeckner",
-    "iconName": "maven",
-    "categories": ["Java", "Maven"]
-}
