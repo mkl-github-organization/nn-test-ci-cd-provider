@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI Source: github.com
+name: "MS GH CI, source: github.com"
 
 # Controls when the workflow will run
 on:
