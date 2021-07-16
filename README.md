@@ -27,8 +27,7 @@ mvn archetype:generate \
   -DarchetypeVersion=1.4 \
   -DinteractiveMode=false
 ```
-
-genrating this file structure
+- genrating this file structure
 ```bash
 hello-world
 ├── pom.xml
@@ -46,3 +45,6 @@ hello-world
                     └── app
                         └── AppTest.java
 ```
+- created ~/.github/workflows/build-java-with-maven.yml`
+- tweaked the actions
+
