@@ -18,9 +18,10 @@ package com.mkl_github_organization.app;
 
 
 public class App {
-    /** 
+    /**
      * Outputs a single phrase.
      * @since 1.0
+     * @parameter EMPTY
      **/
     public static void main(String[] args) {
         System.out.println("Hello World!");
