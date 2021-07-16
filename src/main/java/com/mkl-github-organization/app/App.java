@@ -17,13 +17,13 @@ package com.mkl_github_organization.app;
 **/
 
 
-public final class App {
+private class App {
     /**
      * Outputs a single phrase.
      * @since 1.0
      * @param args empty string!
      **/
-    public static void main(String[] args) {
+    private static void main(String[] args) {
         System.out.println("Hello World!");
     }
 }
