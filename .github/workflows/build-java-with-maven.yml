@@ -35,6 +35,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   build:
+    name: Build Java with Maven
     # We want the slim-linter to run first! always()
     if: always()
     needs: slim-linter
