@@ -45,6 +45,6 @@ hello-world
                     └── app
                         └── AppTest.java
 ```
-- created ~/.github/workflows/build-java-with-maven.yml`
+- created `.github/workflows/build-java-with-maven.yml`
 - tweaked the actions
 
