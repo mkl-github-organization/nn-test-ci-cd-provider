@@ -15,8 +15,8 @@ on:
 
 jobs:
   build:
-  # We want the slim-linter to run first! always()
-    if: always()
+    # We want the slim-linter to run first! always()
+    # if: always()
     needs: slim-linter
 
     runs-on: ubuntu-latest
