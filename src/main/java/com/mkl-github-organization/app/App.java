@@ -17,7 +17,7 @@ package com.mkl_github_organization.app;
 **/
 
 
-private class App {
+public final class App {
     /**
      * Outputs a single phrase.
      * @since 1.0
