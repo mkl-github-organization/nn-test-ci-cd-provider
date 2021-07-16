@@ -1,3 +1,4 @@
+package com.mkl_github_organization.app;
 /**
  * Provides the classes App
  * <p>
@@ -10,11 +11,6 @@
  * @since 1.0
  * @see java.awt
  */
-package com.mkl_github_organization.app;
-/**
- * java package names MUST NOT contain hyphons:
- * http://java.sun.com/docs/books/jls/third_edition/html/packages.html
-**/
 
 import static org.junit.Assert.assertTrue;
 

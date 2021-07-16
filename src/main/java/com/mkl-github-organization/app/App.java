@@ -11,16 +11,18 @@
  * @see java.awt
  */
 package com.mkl_github_organization.app;
-/**
- * java package names MUST NOT contain hyphons:
+/** 
+ * java package names MUST NOT contain hyphons.
  * http://java.sun.com/docs/books/jls/third_edition/html/packages.html
 **/
 
 
-public class App
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+public class App {
+    /** 
+     * Outputs a single phrase.
+     * @since 1.0
+     **/
+    public static void main(String[] args){
+        System.out.println("Hello World!");
     }
 }
