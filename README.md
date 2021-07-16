@@ -1,9 +1,10 @@
 # Setup GH Action CI on mini Java project with Maven
 ## nn-test-ci-cd-provider
 
-This repo contains a single java application. Only purpose: test differend CI/CD providers
-Thu Jul 15 15:05:09 UTC 2021
-Thu Jul 15 15:22:01 UTC 2021
+This repo contains a single java application. Only purpose: test Github Action as CI/CD provider
+
+[![Java CI with Maven](https://github.com/mkl-github-organization/nn-test-ci-cd-provider/actions/workflows/build-java-with-maven.yml/badge.svg?branch=main)](https://github.com/mkl-github-organization/nn-test-ci-cd-provider/actions/workflows/build-java-with-maven.yml)
+
 
 ### Source
 [maven-in-five-minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
@@ -11,7 +12,7 @@ Using maven to package Java
 
 #### Linter
 - [super-linter](https://github.com/github/super-linter#how-it-works)
-[GitHub Super-Linter](https://github.com/nichtsnutz/nn-test-ci-cd-provider/workflows/Lint%20Code%20Base/badge.svg)
+
 
 #### Did
 
