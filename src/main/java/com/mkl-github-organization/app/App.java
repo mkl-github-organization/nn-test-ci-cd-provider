@@ -21,7 +21,7 @@ public class App {
     /**
      * Outputs a single phrase.
      * @since 1.0
-     * @parameter EMPTY
+     * @param EMPTY
      **/
     public static void main(String[] args) {
         System.out.println("Hello World!");
