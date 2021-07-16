@@ -8,6 +8,9 @@ Thu Jul 15 15:22:01 UTC 2021
 https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 Using maven to package Java
 
+#### Linter: https://github.com/github/super-linter#how-it-works
+[![GitHub Super-Linter](https://github.com/nichtsnutz/nn-test-ci-cd-provider/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
 ##### Did
 
 - set `JAVA_HOME` to JDK install path
