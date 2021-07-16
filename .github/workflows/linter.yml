@@ -1,18 +1,10 @@
----
-###########################
-###########################
-## Linter GitHub Actions ##
-###########################
-## https://github.com/github/super-linter#how-it-works
-###########################
-###########################
+#
+# Source: https://github.com/github/super-linter#how-it-works
+# This actions runs linters for various languages
+#
 
 name: Lint Code Base
 
-#
-# Documentation:
-# https://help.github.com/en/articles/workflow-syntax-for-github-actions
-#
 
 on:
   push:
@@ -36,7 +28,7 @@ jobs:
           fetch-depth: 0
 
       - name: Lint Code Base
-        uses: docker://ghcr.io/github/super-linter:slim-v4
+        uses: github/super-linter@v4
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
