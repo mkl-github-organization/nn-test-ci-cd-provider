@@ -14,7 +14,7 @@ on:
     branches: [main]
 
 jobs:
-  slim-linter:
+  super-linter:
     # Name the Job
     name: Lint Code Base
     # Set the agent to run on
