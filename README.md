@@ -11,8 +11,9 @@ Using maven to package Java
 
 #### Linter
 - [super-linter](https://github.com/github/super-linter#how-it-works)
-[GitHub Super-Linter](https://github.com/nichtsnutz/nn-test-ci-cd-provider/workflows/Lint%20Code%20Base/badge.svg)
-
+![GitHub Super-Linter](https://github.com/nichtsnutz/nn-test-ci-cd-provider/workflows/Lint%20Code%20Base/badge.svg)
+![GitHub Super-Linter](https://github.com/nvuillam/npm-groovy-lint/workflows/Lint%20Code%20Base/badge.svg)
+[![GitHub Super-Linter](https://github.com/nichtsnutz/nn-test-ci-cd-provider/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 #### Did
 
 - set `JAVA_HOME` to JDK install path
