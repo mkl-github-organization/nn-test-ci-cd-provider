@@ -21,9 +21,9 @@ private class App {
     /**
      * Outputs a single phrase.
      * @since 1.0
-     * @param args empty string!
+     * @param args final empty String[]
      **/
-    private static void main(String[] args) {
+    private static void main(final String[] args) {
         System.out.println("Hello World!");
     }
 }
