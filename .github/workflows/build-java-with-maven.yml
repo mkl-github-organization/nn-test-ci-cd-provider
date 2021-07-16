@@ -8,10 +8,10 @@ name: MKL Java CI with Maven
 on:
   push:
     ## https://github.blog/changelog/2020-07-22-github-actions-better-support-for-alternative-default-branch-names/
-    ## Next lines uses macro '$default-branch' pointing to 'main'
-    branches: [ $default-branch ]
+    ## Branches used macro '$default-branch' pointing to 'main', only feasable in workflow-templates!
+    branches: [ main ]
   pull_request:
-    branches: [ $default-branch ]
+    branches: [ main ]
 
 jobs:
   build:
