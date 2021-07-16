@@ -14,10 +14,10 @@ on:
     branches: [ main ]
 
 jobs:
-  # We want the slim-linter to run first! always()
-  if: always()
-  needs: slim-linter
   build:
+  # We want the slim-linter to run first! always()
+    if: always()
+    needs: slim-linter
 
     runs-on: ubuntu-latest
 
